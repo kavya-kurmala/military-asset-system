@@ -9,7 +9,7 @@ function App() {
 
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/dashboard", {
+    axios.get("https://military-asset-system-jfh9.onrender.com/api/dashboard", {
   headers: { role, base }
 })
 
